@@ -1,0 +1,124 @@
+body {
+  max-width: 800px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+  font-family: 'Noto Serif', serif;
+}
+
+.navigation-links {
+  text-align: center;
+}
+
+.center-top-content h1 {
+  font-size: 36px;
+  color:#33485e;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #33485e;
+  color: white;
+  padding: 5px;
+}
+
+.center-top-content {
+  border-bottom: 4px;
+  text-align: center;
+}
+
+
+.navigation-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+.navigation-links li {
+  float: left;
+}
+
+.navigation-links li:after {
+  content: " | ";
+}
+
+.navigation-links li:last-child::after {
+  content: "";
+}
+
+.navigation-links li a {
+  /* display: block; */
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.personal-title {
+  text-align: center;
+  color: #D3D3D3;
+  font-style: italic;
+}
+
+hr.top-seperator {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.highlight-me {
+  background-color: #33485e;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+h5 {
+  font-style: italic;
+}
+
+.container-experience h1, h2, h3, h4, h5, h6{
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.container-experience h5 {
+  font-style: italic;
+
+}
+
+.container-experience p {
+  font-size: 14px;
+}
