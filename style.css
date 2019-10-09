@@ -25,6 +25,8 @@ p {
 h1 {
   text-align: center;
   margin-bottom: 10px;
+  letter-spacing: 6px;
+
 }
 
 h2{
@@ -70,8 +72,9 @@ h2{
 
 .personal-title {
   text-align: center;
-  color: #D3D3D3;
+  color: grey;
   font-style: italic;
+  letter-spacing: 1.5px;
 }
 
 hr.top-seperator {
@@ -131,4 +134,8 @@ h5 {
 
 .email-address {
   padding-right: 40px;
+}
+
+.education {
+  font-style: italic;
 }
