@@ -1,5 +1,4 @@
 body {
-  max-width: 800px;
   display: block;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -14,6 +13,7 @@ p {
 
 .navigation-links {
   text-align: center;
+  padding-bottom: 15px;
 }
 
 .center-top-content h1 {
@@ -46,8 +46,6 @@ h2{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
   display: inline-block;
 }
 
@@ -65,7 +63,6 @@ h2{
 
 .navigation-links li a {
   /* display: block; */
-  color: black;
   text-align: center;
   padding: 16px;
   text-decoration: none;
@@ -80,7 +77,7 @@ h2{
 hr.top-seperator {
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -92,6 +89,7 @@ hr.top-seperator {
 img {
   max-width: 100%;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .highlight-me {
@@ -121,4 +119,16 @@ h5 {
 
 .container-experience p {
   font-size: 14px;
+}
+
+.col-sm-8 {
+  margin-top: 20px;
+}
+
+.col-sm-4 ul {
+  text-align: center;
+}
+
+.email-address {
+  padding-right: 40px;
 }
